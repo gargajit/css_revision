@@ -130,11 +130,13 @@ div.combining-selectors-div {
 .icon-positioning-div {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   padding: 15px;
   position: fixed;
   bottom: 50px;
   right: 50px;
-  width: 5%;
+  width: 3.5%;
   height: 5%;
   display: flex;
   justify-content: center;
@@ -394,8 +396,8 @@ img.float-img {
 
 .flex-container-2 {
   height: 50%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -427,8 +429,8 @@ img.float-img {
 .flex-container-3 {
   background-color: #b0cfee;
   border-radius: 10px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
   height: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -464,7 +466,7 @@ img.float-img {
   grid-template-columns: 400px auto;
   grid-template-rows: 120px auto;
   gap: 20px;
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
 }
 
 .grid-card {
@@ -481,8 +483,8 @@ img.float-img {
 }
 
 .container-grid-2 {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
   height: 30%;
   display: grid;
   grid-template-columns: minmax(auto, 1fr) minmax(100px, 1fr);
@@ -496,11 +498,65 @@ img.float-img {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 200px 200px;
   gap: 100px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .flag-card {
   background-color: #005193;
 }
+
+.container-grid-3 {
+  display: grid;
+  grid-template-columns: minmax(500px,800px) minmax(50px, auto);
+  grid-template-rows: 120px 120px;
+  gap: 20px;
+  grid-auto-rows: 60px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.container-grid-3 > .card {
+  background-color: rgb(172, 201, 78);
+  border-radius: 5px;
+  color: #0d4304;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-grid-3 > img.card {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* 'cover' or 'contain' if you want the whole image visible */
+  border-radius: 5px;
+  background-color: #faaeae;
+}
+
+.practice_by_gpt {
+  background-color: #e8f1b8;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ccc;
+  padding: 15px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 7%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: small;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+
 /* /////// */
+
+hr {
+  border: rgb(74, 64, 47) 2px dashed;
+  box-shadow: #7e9ecb 0px 0px 8px;
+}

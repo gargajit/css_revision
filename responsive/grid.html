@@ -38,5 +38,27 @@
       <div class="flag-card flag-four"></div>
     </div>
     <hr />
+    <div class="container-grid-3">
+      <img class="card" src="../images/vitage-banner-nobg.png" alt="test banner image">
+      <div class="card">1</div>
+      <div class="card">2</div>
+      <div class="card">3</div>
+      <div class="card">4</div>
+      <!-- <div class="card">5</div> -->
+    </div>
+    <hr />
+    <div class="practice_by_gpt">Grid Practice 💬</div>
+    <script>
+      const iconPositioningDiv = document.querySelector('.practice_by_gpt');
+      iconPositioningDiv.addEventListener('mouseover', () => {
+        iconPositioningDiv.style.boxShadow = '0 0 20px 5px #e8f1b8';
+      });
+      iconPositioningDiv.addEventListener('mouseout', () => {
+        iconPositioningDiv.style.boxShadow = '';
+      });
+      iconPositioningDiv.addEventListener('click', () => {
+        window.location.href = '../responsive/grid_practice_by_gpt.html';
+      });
+    </script>
   </body>
 </html>
