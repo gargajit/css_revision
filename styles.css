@@ -242,6 +242,7 @@ img.float-img {
   object-fit: cover;
   margin-bottom: 1.2em;
 }
+
 .float-div > hr {
   clear: right;
 }
@@ -315,7 +316,6 @@ img.float-img {
 .grid-container > div.two {
   background-color: rgb(249, 179, 249);
   grid-row: span 2;
-  /* height: 100px; */
 }
 
 .flex-link {
@@ -406,6 +406,7 @@ img.float-img {
   border-radius: 10px;
   background-color: #c0c7e6;
 }
+
 .flex-container-2 .block {
   background-color: blue;
   width: 300px;
@@ -551,7 +552,6 @@ img.float-img {
   font-family: cursive;
   cursor: pointer;
 }
-
 
 /* /////// */
 
